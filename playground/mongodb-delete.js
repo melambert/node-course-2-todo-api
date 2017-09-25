@@ -26,7 +26,7 @@ MongoClient.connect('mongodb://localhost:27017/TodoApp', (err, db) => {
     })
 */
 
-    db.collection('Users').deleteMany({name: 'SxyYng'}).then((result) => {
+    db.collection('Users').deleteMany({name: 'SY'}).then((result) => {
         console.log(result);
     });
 
